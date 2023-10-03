@@ -1,3 +1,8 @@
+My first project using Chadcn UI (skeleton) and game api rawg.io 
+
+----ENJOY----
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
