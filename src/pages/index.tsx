@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Card from "@/Components/_Card";
+import TestPopover from "@/Components/_TestPopover";
 
 type Game = {
   id: number;
@@ -39,6 +40,21 @@ const Home = () => {
   return (
     <>
       <div className="w-full h-full bg-white/90 overflow-hidden p-24">
+        <div className="mb-24 text-black">
+          <h1 className="text-4xl text-black mb-2 font-bold">CHADCN UI</h1>
+          <p className="text-xl">
+            Game API{" "}
+            <a
+              href="https://rawg.io"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="hover:text-blue-400 text-violet-400"
+            >
+              --rawg.io--
+            </a>
+          </p>
+          <TestPopover />
+        </div>
         <div className="w-full grid grid-cols-4">
           {loading ? (
             <Card />
